@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet">
+		<script src="hangman.js"></script>
+	</head>
+
+	<body>
+		<input id="secret_input" 
+		class="underlined" pattern="[ a-z]+">
+		<hr>
+		<input minlength="1" maxlength="1" 
+		       id='guess' 
+		       class="underlined" pattern="[a-z]">
+		<button id="send_guess">Send Guess</button>
+		<hr>
+		<ul>
+		</ul>
+	</body>
+</html>

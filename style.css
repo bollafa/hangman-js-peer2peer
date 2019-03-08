@@ -1,0 +1,23 @@
+.underlined {
+  padding: 0ch;
+  border: none;
+  width: 10.5ch;
+  background: 
+    repeating-linear-gradient(90deg, 
+        dimgrey 0, 
+        dimgrey 1ch, 
+        transparent 0, 
+        transparent 1.5ch) 
+      0 100%/100% 2px no-repeat;
+  color: dimgrey;
+  font: 5ch consolas, monospace;
+  letter-spacing: .5ch;
+}
+.underlined:focus {
+  outline: none;
+  color: dodgerblue;
+}
+
+p {
+	font: 2ch consolas,monospace;
+}
